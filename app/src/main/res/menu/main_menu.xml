@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_currencies"
+        android:title="@string/menu_currencies" />
+    <item
+        android:id="@+id/menu_rates"
+        android:title="@string/menu_rates" />
+    <item
+        android:id="@+id/menu_references"
+        android:title="@string/menu_references">
+        <menu>
+            <item
+                android:id="@+id/menu_accounts"
+                android:title="@string/menu_accounts"/>
+            <item
+                android:id="@+id/menu_operations"
+                android:title="@string/menu_operations" />
+            <item
+                android:id="@+id/menu_counters"
+                android:title="@string/menu_counters" />
+            <item
+                android:id="@+id/menu_tariffs"
+                android:title="@string/menu_tariffs" />
+        </menu>
+    </item>
+</menu>

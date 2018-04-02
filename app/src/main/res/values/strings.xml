@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Money4Life</string>
+    <string name="title_activity_actions">ActionsActivity</string>
+
+    <string name="button_cancel">Отмена</string>
+    <string name="button_OK">OK</string>
+
+    <string name="txt_date">Дата</string>
+    <string name="txt_account">Счет</string>
+    <string name="txt_operation">Операция</string>
+
+    <string name="hint_account">Выберите счет&#8230;</string>
+    <string name="hint_operation">Выберите операцию&#8230;</string>
+
+    <string name="txt_date_from">Начальная дата</string>
+    <string name="txt_date_to">Конечная дата</string>
+    <string name="button_start">Загрузить</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="menu_currencies">Валюты</string>
+    <string name="menu_rates">Курсы валют</string>
+    <string name="menu_references">Справочники</string>
+    <string name="menu_accounts">Счета</string>
+    <string name="menu_operations">Операции</string>
+    <string name="menu_counters">Счетчики</string>
+    <string name="menu_tariffs">Тарифы</string>
+
+</resources>

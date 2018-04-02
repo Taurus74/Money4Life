@@ -1,0 +1,20 @@
+[
+  {
+    "code" : "978",
+    "CbrCode" : "R01239",
+    "name" : "Euro",
+    "shortName" : "EUR",
+    "id" : 2},
+  {
+    "code" : "840",
+    "CbrCode" : "R01235",
+    "name" : "Доллар США",
+    "shortName" : "USD",
+    "id" : 3},
+  {
+    "code" : "643",
+    "CbrCode" : "",
+    "name" : "Рубль",
+    "shortName" : "руб.",
+    "id" : 0}
+]

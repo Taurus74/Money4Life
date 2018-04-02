@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RatesDownloadActivity">
+
+    <TextView
+        android:id="@+id/tvDateFrom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showDatePickerDialog"
+        android:text="@string/txt_date_from"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/tvDateTo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="showDatePickerDialog"
+        android:text="@string/txt_date_to"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/buttonDownload"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/button_start" />
+
+</LinearLayout>

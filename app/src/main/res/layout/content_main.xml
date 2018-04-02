@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <!--Описание кнопки Деньги -->
+        <Button
+            android:id="@+id/btnMoney"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="bottom|center"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@mipmap/ic_money"
+            android:onClick="onClick"
+            android:text="" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <!--Описание кнопки Счетчики-->
+        <Button
+            android:id="@+id/btnCounters"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@mipmap/ic_counters"
+            android:onClick="onClick"
+            android:text="" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <!--Описание кнопки Справочники -->
+        <Button
+            android:id="@+id/btnReferences"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="top|center"
+            android:layout_margin="@dimen/fab_margin"
+            android:background="@mipmap/ic_references"
+            android:onClick="onClick"
+            android:text="" />
+    </FrameLayout>
+
+</LinearLayout>
